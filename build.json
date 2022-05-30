@@ -1,13 +1,16 @@
 {
-  "library": "BizComps",
+  "library": "NextProLowcodeMaterials",
   "libraryTarget": "umd",
   "sourceMap": true,
   "alias": {
     "@": "./src/components"
   },
   "plugins": [
-    ["build-plugin-component-multiple", {
-      "themePackage": "@alifd/theme-2"
-    }]
+    [
+      "build-plugin-component-multiple",
+      {
+        "themePackage": "@alifd/theme-2"
+      }
+    ]
   ]
 }
