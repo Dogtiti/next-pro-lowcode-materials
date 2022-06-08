@@ -1,7 +1,6 @@
 # next-pro-lowcode-materials
 
-一个面向 PC 的业务组件库
-
+基于`next`实现的高级表单低代码物料
 ## 调试
 启动调试
 

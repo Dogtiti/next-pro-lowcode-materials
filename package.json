@@ -1,6 +1,6 @@
 {
   "name": "@dogtiti/next-pro-lowcode-materials",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "next-pro-lowcode-materials",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -27,7 +27,7 @@
   "keywords": [
     "Fusion"
   ],
-  "author": "fusion-team",
+  "author": "Dogtiti",
   "license": "MIT",
   "husky": {
     "hooks": {
@@ -74,6 +74,14 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/@dogtiti/next-pro-lowcode-materials@0.2.0/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/@dogtiti/next-pro-lowcode-materials@0.2.1/build/lowcode/assets-prod.json"
+  },
+  "homepage": "https://github.com/Dogtiti/next-pro-lowcode-materials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dogtiti/next-pro-lowcode-materials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dogtiti/next-pro-lowcode-materials/issues"
   }
 }
