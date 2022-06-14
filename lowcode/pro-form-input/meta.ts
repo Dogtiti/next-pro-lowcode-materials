@@ -3,7 +3,7 @@ import { formItemProps } from '../shared';
 
 const ProFormInputMeta: ComponentMetadata = {
   componentName: 'ProFormInput',
-  group: 'Cbayel组件',
+  group: '精选组件',
   category: '高级表单(next)',
   title: '输入框',
   hidden: true,
