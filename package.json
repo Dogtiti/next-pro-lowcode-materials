@@ -1,6 +1,6 @@
 {
   "name": "@dogtiti/next-pro-lowcode-materials",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "next-pro-lowcode-materials",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -74,7 +74,7 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/@dogtiti/next-pro-lowcode-materials@0.2.1/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/@dogtiti/next-pro-lowcode-materials@0.3.0/build/lowcode/assets-prod.json"
   },
   "homepage": "https://github.com/Dogtiti/next-pro-lowcode-materials",
   "repository": {
