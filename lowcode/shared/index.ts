@@ -806,12 +806,12 @@ export const formProps: FieldConfig[] = [
             const first = value.findIndex(
               (item) =>
                 item.primaryKey === firstChild.getPropValue('primaryKey') ||
-                firstChild.getPropValue('formItemProps').primaryKey,
+                item.primaryKey === firstChild.getPropValue('formItemProps').primaryKey,
             );
             const seconde = value.findIndex(
               (item) =>
                 item.primaryKey === secondeChild.getPropValue('primaryKey') ||
-                secondeChild.getPropValue('formItemProps').primaryKey,
+                item.primaryKey === secondeChild.getPropValue('formItemProps').primaryKey,
             );
             return first - seconde;
           },
