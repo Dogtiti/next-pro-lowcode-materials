@@ -9,8 +9,9 @@ module.exports = {
       '@alifd/build-plugin-lowcode',
       {
         library,
-        engineScope: "@alilc"
+        engineScope: '@alilc',
       },
     ],
+    './build.plugin.js',
   ],
 };
